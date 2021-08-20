@@ -19,7 +19,7 @@ jobs:
     uses: perfect-ruby-on-rails/elasticsearch-with-plugins-action@v1
     with:
       stack-version: 7.14.0
-      plugins: |
+      plugins:
         analysis-kuromoji
     - name: Build and test
       env:
